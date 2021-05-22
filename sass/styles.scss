@@ -1,0 +1,39 @@
+@import './theme/theme';
+@import './mixins/mixins';
+@import './base/base';
+@import './layout/layout';
+@import './modules/modules';
+
+
+.Section1-Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-Titulo1 {
+		font-size: 0.8em;
+		color: darkblue;
+        padding-top: 2em;
+	}
+    
+    &-Titulo2 {
+        padding-top: 0.2em;
+		font-size: 1.8em;
+		color: black;
+        padding-bottom: 1em;
+	}
+}
+
+
+.Section1-Articulos{
+    display: flex;
+
+    &-Articulo {
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+	}
+    
+}

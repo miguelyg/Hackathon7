@@ -1,0 +1,23 @@
+@import './header';
+@import './body';
+@import './footer';
+
+.container{
+    max-width: 900px;
+    // margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Section1{
+    background-color: $color-principal;
+    width: 100%;
+    height: 640px;
+
+    @include mq(500px){        
+        height: 320px;
+    }
+
+    
+
+}
